@@ -26,7 +26,7 @@ services:
       - bq-network
 
 volumes:
-  database:
+  database: 
 
 networks:
   bq-network:
