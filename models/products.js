@@ -7,7 +7,7 @@ module.exports = (sequelize, DataTypes) => {
     type: DataTypes.STRING,
   }, {});
   products.associate = function(models) {
-  //  products.hasMany(models.ordersItems)
+   products.hasMany(models.ordersItems)
   };
   return products;
 };
